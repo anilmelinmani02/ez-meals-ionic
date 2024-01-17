@@ -1,0 +1,47 @@
+#logo-svg{
+    width: 212px;
+    height: 33px;
+    position: relative;
+    top: 85px;
+    left: 102px;
+}
+
+#container{
+    text-align: center;
+}
+
+.container{
+    padding-top: 155px;
+}
+
+#container #para1{
+ margin-bottom: 30px;
+ color: #585858;
+}
+
+#container input{
+    margin-bottom: 15px;
+    width: auto;
+
+}
+
+.margin-bottom{
+    margin-bottom: 15px;
+}
+
+#container #para3{
+    margin-top: 220px;
+}
+
+.flex{
+    display: flex;
+    gap: 20px;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.align-center{
+    align-items: center;
+}
