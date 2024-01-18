@@ -45,22 +45,27 @@
 	color: #585858 !important;
 	font-size: 25px !important;
 	font-weight: 700 !important;
-	padding: 0px 0px 0px 90px !important;
+	padding: 0px 0px 0px 55px !important;
 	margin-bottom: 15px !important;
 	text-align: start !important;
+	display: flex !important;
+	align-items: center !important;
 }
 
 #btn {
-	margin-top: 130px;
-	background:red;
+	margin-top: 75px;
+	background: red;
 	border: 1px solid;
+	background-color: #FC4444 !important;
+	border: 3px solid #F45656 !important;
+	outline: 3px solid #E6A7A7 !important;
 }
 
-.paragraph{
+.paragraph {
 	font-size: 16px;
 	text-align: start;
 	position: absolute;
-    left: 52px;
-	margin-top:20px;
-	padding: 0px 0px 0px 40px !important;
+	left: 52px;
+	margin-top: 20px;
+	padding: 0px 0px 0px 10px !important;
 }

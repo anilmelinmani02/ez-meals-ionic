@@ -18,14 +18,16 @@
 .align-center {
     align-items: center;
 }
-.flex-column{
+
+.flex-column {
     flex-direction: column;
 }
 
 .justify-between {
     justify-content: space-between;
 }
-.gap-0{
+
+.gap-0 {
     gap: 0px;
 }
 
@@ -40,6 +42,9 @@
 }
 
 .black-buttons {
+    background-color: #171717 !important;
+    border: 3px solid #0F0F0F !important;
+    outline: 3px solid #919191 !important;
     background-color: black;
     width: 273px;
     color: white;
@@ -55,6 +60,7 @@
     padding: 0 15px;
 }
 
+
 .count-color {
     color: #44FF57;
 }
@@ -68,9 +74,11 @@
 }
 
 .green-button {
+    background-color: #FC4444 !important;
+	border: 3px solid #F45656 !important;
+	outline: 3px solid #E6A7A7 !important;
     background-color: #FC4444;
     border-radius: 25px;
-    border: 3px solid rgba(201, 234, 198, 0.5) !important;
     margin-bottom: 20px;
     color: #FFF;
     font-size: 15px;
@@ -92,10 +100,12 @@
     line-height: 9.5px;
     text-align: center;
 }
-.messageArer{
+
+.messageArer {
     padding-top: 30px;
     gap: 14px;
 }
+
 .container2 p {
     color: #585858;
     font-size: 22px;
@@ -112,19 +122,21 @@
     margin: 0px;
     padding: 0px;
 }
-.messageSpan span{
+
+.messageSpan span {
     color: #585858;
     margin: 0px;
     padding: 0px;
 }
-.alert{
+
+.alert {
     color: #6DA8ED;
     font-size: 15px;
     text-decoration: underline;
     text-align: center;
 }
 
-.para-bank{
+.para-bank {
     color: #585858 !important;
     font-size: 25px !important;
     margin: 0;
@@ -132,7 +144,7 @@
     font-weight: 700 !important;
 }
 
-#bank-div{
+#bank-div {
     display: flex !important;
     margin-top: 20%;
     align-items: center !important;

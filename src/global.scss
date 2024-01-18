@@ -100,12 +100,13 @@
 }
 
 #container button {
-    background-color: black;
     width: 273px;
     color: #ffffff;
     height: 44px;
     border-radius: 25px;
-    border: 3px solid grey;
+    background-color: #171717 !important;
+    border: 3px solid #0F0F0F !important;
+    outline: 3px solid #919191 !important;
     margin-bottom: 20px;
 }
 
@@ -149,4 +150,9 @@
     span svg{
           height: 22px;
     }
+}
+
+.global-font-size{
+    font-size: 15px !important;
+    font-weight: 700 !important;
 }

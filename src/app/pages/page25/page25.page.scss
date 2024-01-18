@@ -25,6 +25,9 @@
 
 
     .submit-btn {
+        background-color: #FC4444 !important;
+        border: 3px solid #F45656 !important;
+        outline: 3px solid #E6A7A7 !important;
         background-color: #FC4444;
         width: 273px;
         color: white;
@@ -61,6 +64,7 @@
         display: flex;
         align-items: center;
         gap: 10px;
+
         h1 {
             font-weight: 600;
         }

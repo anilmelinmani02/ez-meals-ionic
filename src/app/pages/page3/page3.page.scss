@@ -25,7 +25,9 @@
 
 
     .submit-btn {
-        background-color: #FC4444;
+        background-color: #FC4444 !important;
+        border: 3px solid #F45656 !important;
+        outline: 3px solid #E6A7A7 !important;
         width: 273px;
         color: white;
         height: 44px;

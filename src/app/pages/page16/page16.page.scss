@@ -18,6 +18,12 @@
     justify-content: space-between;
 }
 
+// .deliveries{
+//     background-color: #171717 !important;
+//     border: 3px solid #0F0F0F !important;
+//     outline: 4px solid #919191 !important;
+// }
+
 .title {
     color: #585858;
     text-align: start;
@@ -29,13 +35,16 @@
 }
 
 .black-buttons {
+    background-color: #171717 !important;
+    border: 3px solid #0F0F0F !important;
+    outline: 3px solid #919191 !important;
     background-color: black;
     width: 273px;
     color: white;
     height: 44px;
     border-radius: 25px;
     border: 3px solid grey;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     color: #FFF;
     font-size: 15px;
     font-style: normal;
@@ -82,6 +91,208 @@
     line-height: 9.5px;
     text-align: center;
 }
+
+#title{
+    font-size: 20px !important;
+}
+
+.header-main-container {
+    background-color: #F1F1F1;
+    height: 90px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+
+    .header-inner-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: inherit;
+        justify-content: space-between;
+        padding: 0px 15px;
+    }
+
+    span svg {
+        height: 22px;
+    }
+}
+
+.three-page-container {
+    display: flex;
+    justify-content: center;
+
+
+    .primary-btn {
+        background-color: #FC4444;
+        width: 220px;
+        color: white;
+        height: 44px;
+        border-radius: 25px;
+        border: 3px solid #EC686880;
+        position: absolute;
+        bottom: 250px;
+        left: 18px;
+        align-items: center;
+        font-weight: 700;
+        z-index: 1;
+    }
+
+    .secondary-btn {
+        background-color: #303030;
+        width: 120px;
+        color: white;
+        height: 44px;
+        border-radius: 25px;
+        border: 3px solid #1D1D1D;
+        position: absolute;
+        bottom: 250px;
+        right: 18px;
+        align-items: center;
+        font-weight: 700;
+        z-index: 1;
+    }
+
+}
+
+.popup-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0;
+
+    span {
+        color: rgb(161, 158, 158);
+    }
+
+    .location-svg svg {
+        color: white;
+    }
+
+    .popup-inner-container {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        h1 {
+            font-weight: 600;
+        }
+
+    }
+}
+
+.block {
+    width: 100%;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 30px;
+    margin: 40px auto;
+
+    .content-container {
+        margin: 10px 0px;
+    }
+
+    .content-container p {
+        padding: 0;
+        margin: 0;
+        font-weight: 500;
+        line-height: 22px;
+        font-size: 15px;
+    }
+
+    .content-container p span {
+        font-weight: 550;
+        color: #585858;
+    }
+
+    .btn-container {
+        display: flex;
+        justify-content: center;
+
+        .ternary-btn {
+            background-color: #8ED874 !important;
+            border: 4px solid #79E16B !important;
+            outline: 4px solid #AAF2A8 !important;
+            width: 273px;
+            color: white;
+            height: 44px;
+            border-radius: 25px;
+            position: absolute;
+            bottom: 250px;
+            align-items: center;
+            font-weight: 700;
+            z-index: 1;
+            box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.2)
+        }
+    }
+}
+
+.block {
+    .bottom-content {
+        display: flex;
+        justify-content: flex-end;
+
+        .para-content {
+            display: flex;
+            justify-content: flex-end;
+            width: 105px;
+            font-size: 13px;
+            color: #58585891;
+        }
+    }
+}
+
+.open-modal-class {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    border-radius: 56px 56px 0px 0px;
+}
+
+ion-modal {
+    --height: auto;
+}
+
+.modal-wrapper {
+    background: #222;
+}
+
+.my-custom-class .modal-wrapper {
+    background: #222;
+}
+
+.custom-modal-content {
+
+    @media (max-width: 767px) {
+        background-color: #f0f0f0;
+    }
+
+    @media (min-width: 768px) {
+        background-color: #fff;
+        padding: 20px !important;
+        border-radius: 10px !important;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+}
+
+::ng-deep #shadow .modal-wrapper .ion-overlay-wrapper {
+    width: 80% !important;
+}
+
+// .background-svg {
+//     position: fixed;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     height: 100vh;
+//     object-fit: cover;
+//     background-position: center;
+//     z-index: -1;
+// }
 
 // .popup-container {
 //     display: flex;

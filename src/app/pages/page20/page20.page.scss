@@ -18,14 +18,16 @@
 .align-center {
     align-items: center;
 }
-.flex-column{
+
+.flex-column {
     flex-direction: column;
 }
 
 .justify-between {
     justify-content: space-between;
 }
-.gap-0{
+
+.gap-0 {
     gap: 0px;
 }
 
@@ -53,6 +55,9 @@
     font-weight: 700;
     line-height: normal;
     padding: 0 15px;
+    background-color: #171717 !important;
+    border: 3px solid #0F0F0F !important;
+    outline: 3px solid #919191 !important;
 }
 
 .count-color {
@@ -68,9 +73,11 @@
 }
 
 .green-button {
+    background-color: #FC4444 !important;
+	border: 3px solid #F45656 !important;
+	outline: 3px solid #E6A7A7 !important;
     background-color: #FC4444;
     border-radius: 25px;
-    border: 3px solid rgba(201, 234, 198, 0.5) !important;
     margin-bottom: 20px;
     color: #FFF;
     font-size: 15px;
@@ -85,19 +92,21 @@
 
 .lastPara {
     color: rgba(88, 88, 88, 0.75);
-    font-size: 10px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 400;
     line-height: 9.5px;
     text-align: center;
 }
-.messageArer{
+
+.messageArer {
     padding-top: 30px;
     gap: 14px;
 }
+
 .container2 p {
     color: #585858;
-    font-size: 22px;
+    font-size: 25px;
     font-weight: 700;
     padding: 0px;
     margin: 0px;
@@ -106,17 +115,19 @@
 .messageSpan {
     color: rgba(88, 88, 88, 0.50);
     text-align: center;
-    font-family: Proxima Nova;
+    // font-family: Proxima Nova;
     font-weight: 700;
     margin: 0px;
     padding: 0px;
 }
-.messageSpan span{
+
+.messageSpan span {
     color: #585858;
     margin: 0px;
     padding: 0px;
 }
-.alert{
+
+.alert {
     color: #6DA8ED;
     font-size: 15px;
     text-decoration: underline;
